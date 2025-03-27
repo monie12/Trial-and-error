@@ -6,30 +6,25 @@ body{
     font-size: small;
    
 }
-.logo {
-    display: flex;
-    justify-content: right;
-    align-items: right;
-}
 
 .cv-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     margin: 20px auto;
+    max-width: 1100px;
+    gap: 20px;
     
 
 }
-.cv-right-container{
-    background-color: gray;
-    padding: 10px;
-}
+
+
 .cv-right {
-    flex: 1;
-    padding-left: 10px;
+    flex: 0.8;
+    padding: 15px;
     border-left: 2px solid;
     border-radius: 20px;
-    width: auto;
+    min-width: 250px;
     background-color: honeydew;
     text-align: left;
     
@@ -37,7 +32,7 @@ body{
 
 .cv-left {
     flex: 2;
-    padding-right: 10px;
+    padding: 20px;
     border-radius: 20px;
     background-color: whitesmoke;
 }
@@ -81,7 +76,11 @@ h4 {
 }
 
 
-footer {
-    background-color: skyblue;
-    color: white;
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
